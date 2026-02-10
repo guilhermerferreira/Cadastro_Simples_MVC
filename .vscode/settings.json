@@ -1,0 +1,9 @@
+// Remove os arquivos .pychace do Python
+
+{
+    "files.exclude": {
+        "**/*.pyc": {"when": "$(basename).py"},
+        "**/__pycache__": true,
+        "**/*.pytest_cache": true
+    }
+}
